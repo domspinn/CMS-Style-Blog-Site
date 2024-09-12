@@ -39,7 +39,6 @@ app.use(session({
 const authRoutes = require('./routes/authRoutes');
 const blogRoutes = require('./routes/blogRoutes');
 const homeRoutes = require('./routes/homeRoutes');
-// const event = require('./models/blog')
 
 app.use(authRoutes);
 app.use(blogRoutes);
